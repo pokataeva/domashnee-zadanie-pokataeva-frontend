@@ -1,4 +1,0 @@
-import IISDomashnee_zadanie_PokataevaДистанцияEController from '../i-i-s-domashnee-zadanie-pokataeva-дистанция-e';
-
-var IISDomashnee_zadanie_PokataevaДистанцияENewController = IISDomashnee_zadanie_PokataevaДистанцияEController;
-export default IISDomashnee_zadanie_PokataevaДистанцияENewController;

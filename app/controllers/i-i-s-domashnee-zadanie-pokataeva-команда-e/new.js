@@ -1,4 +1,0 @@
-import IISDomashnee_zadanie_PokataevaКомандаEController from '../i-i-s-domashnee-zadanie-pokataeva-команда-e';
-
-var IISDomashnee_zadanie_PokataevaКомандаENewController = IISDomashnee_zadanie_PokataevaКомандаEController;
-export default IISDomashnee_zadanie_PokataevaКомандаENewController;

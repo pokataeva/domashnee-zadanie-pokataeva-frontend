@@ -1,4 +1,0 @@
-import IISDomashnee_zadanie_PokataevaУчастникEController from '../i-i-s-domashnee-zadanie-pokataeva-участник-e';
-
-var IISDomashnee_zadanie_PokataevaУчастникENewController = IISDomashnee_zadanie_PokataevaУчастникEController;
-export default IISDomashnee_zadanie_PokataevaУчастникENewController;
