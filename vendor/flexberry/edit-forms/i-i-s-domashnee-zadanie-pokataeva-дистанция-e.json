@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "участник",
+      "displayAttributeName": "фИО",
+      "required": true,
+      "relationName": "УчастникиДистанции.Участник",
+      "projection": "УчастникL",
+      "detailModelName": "i-i-s-domashnee-zadanie-pokataeva-участники-дистанции"
+    }
+  ],
+  "external": false,
+  "caption": "Дистанция",
+  "name": "IISDomashnee_zadanie_PokataevaДистанцияE",
+  "className": "ДистанцияE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-domashnee-zadanie-pokataeva-дистанция",
+      "modelProjection": "ДистанцияE"
+    }
+  ]
+}

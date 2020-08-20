@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Команда",
+  "name": "IISDomashnee_zadanie_PokataevaКомандаE",
+  "className": "КомандаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-domashnee-zadanie-pokataeva-команда",
+      "modelProjection": "КомандаE"
+    }
+  ]
+}

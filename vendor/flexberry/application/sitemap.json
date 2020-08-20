@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Domashnee_zadanie_ pokataeva",
+  "applicationTitle": "Domashnee_zadanie_ pokataeva",
+  "items": [
+    {
+      "link": null,
+      "menuName": "domashnee-zadanie-pokataeva",
+      "caption": "Domashnee_zadanie_Pokataeva",
+      "title": "Domashnee_zadanie_Pokataeva",
+      "children": [
+        {
+          "link": "i-i-s-domashnee-zadanie-pokataeva-команда-l",
+          "menuName": null,
+          "caption": "Команда",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-domashnee-zadanie-pokataeva-дистанция-l",
+          "menuName": null,
+          "caption": "Дистанция",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-domashnee-zadanie-pokataeva-участник-l",
+          "menuName": null,
+          "caption": "Участник",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

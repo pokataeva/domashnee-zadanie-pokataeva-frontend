@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISDomashnee_zadanie_PokataevaДистанция",
+  "modelName": "i-i-s-domashnee-zadanie-pokataeva-дистанция",
+  "className": "Дистанция",
+  "nameSpace": "IIS.Domashnee_zadanie_Pokataeva",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "длина",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "участникиДистанции",
+      "relatedTo": "i-i-s-domashnee-zadanie-pokataeva-участники-дистанции",
+      "inverse": "дистанция"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ДистанцияE",
+      "modelName": "i-i-s-domashnee-zadanie-pokataeva-дистанция",
+      "attrs": [
+        {
+          "name": "длина",
+          "caption": "Длина",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "УчастникиДистанцииE",
+          "caption": "Участники дистанции",
+          "name": "участникиДистанции",
+          "relatedTo": "i-i-s-domashnee-zadanie-pokataeva-участники-дистанции",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ДистанцияL",
+      "modelName": "i-i-s-domashnee-zadanie-pokataeva-дистанция",
+      "attrs": [
+        {
+          "name": "длина",
+          "caption": "Длина",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
